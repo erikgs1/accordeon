@@ -25,10 +25,14 @@ body{
     font-size: 14px;
 }
 .accordion-body .accordion-content{
+    width: calc(100% - 20px);
     display: none;
     padding: 10px;
-    border-top:  1px solid;
+    border:  1px solid;
+    border-bottom: none;
+    
 }
-.accordion-body .display {
-    display: block ;
+.accordion-body .no--border-top{
+    border: 1px solid;
+    border-top: none;
 }

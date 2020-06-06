@@ -9,7 +9,7 @@ body{
     width: 800px;
     margin: 20px auto 0;
 }
-.accordion-body .accordion-item-1,.accordion-body .accordion-item-2, .accordion-body .accordion-item-3 {
+.accordion-body .accordion-item{
     width: 100%;
     min-height: 30px;
     border: 1px solid;
@@ -29,12 +29,6 @@ body{
     padding: 10px;
     border-top:  1px solid;
 }
-.accordion-body .accordion-item-1:hover .content--1{
-    display: block;
-}
-.accordion-body .accordion-item-2:hover .content--2{
-    display: block;
-}
-.accordion-body .accordion-item-3:hover .content--3{
-    display: block;
+.accordion-body .display {
+    display: block ;
 }
